@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+  <name>AcheClinicPet</name>
+  <description>AcheClinicPet</description>
+
+  <gap:splash src="/icons/android/splash-hdpi.png" gap:density="hdpi" gap:platform="android" />
+  <gap:splash src="/icons/android/splash-ldpi.png" gap:density="ldpi" gap:platform="android" />
+  <gap:splash src="/icons/android/splash-mdpi.png" gap:density="mdpi" gap:platform="android" />
+  <gap:splash src="/icons/android/splash-xhdpi.png" gap:density="xhdpi" gap:platform="android" />
+
+  <author href="http://cordova.io" email="dev@cordova.apache.org">AcheClinicPet</author>
+  <content src="index.html" />
+  <access origin="*" />
+  <vs:features />
+  <preference name="phonegap-version" value="3.7.0" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="windows-target-version" value="8.0" />
+  <preference name="windows-phone-target-version" value="8.1" />
+  
+  <gap:plugin name="org.apache.cordova.geolocation" />
+  <gap:plugin name="org.apache.cordova.inappbrowser" />
+  <gap:plugin name="org.apache.cordova.network-information" />
+  <gap:plugin name="org.apache.cordova.dialogs" />
+  <gap:plugin name="org.apache.cordova.splashscreen" />
+  <gap:plugin name="org.apache.cordova.device" />
+  <gap:plugin name="nl.x-services.plugins.socialsharing" />  
+</widget>
